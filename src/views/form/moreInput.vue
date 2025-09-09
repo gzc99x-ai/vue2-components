@@ -1,10 +1,12 @@
 <template>
   <div class="area">
-    <div contenteditable class="textarea-box" @input="handleInput">
+  <div class="textarea-box" @click="selectInput">
       <span class="item" v-for="(item, index) in itemList" :key="index">
         {{item}}
         <i class="el-icon-close" @click="removeItem(index)"></i>
       </span>
+      <div contenteditable="true" @input="handleInput" 
+        class="input-box" id="inputBox"></div>
     </div>
   </div>
 </template>
@@ -24,12 +26,14 @@ export default {
     },
     handleInput(e){
       const text = e.target.innerText
-      console.log('text===>',text)
       if(text.endsWith('\n')){
         this.itemList.push(text.trim())
         e.target.innerText = ''
         console.log('itemList===>',this.itemList)
       }
+    },
+    selectInput() {
+      document.getElementById('inputBox').focus();
     },
   },
 }
@@ -45,6 +49,9 @@ export default {
     font-size: 14px;
     text-align: left;
     outline: none;
+    .input-box{
+      display: inline-block; min-width: 20px; outline: none;
+    }
     .item{
       display: inline-block;
       background: #f0f0f0;

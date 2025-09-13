@@ -1,7 +1,7 @@
 
 import VueRouter from 'vue-router'
 import moreInput from '@/views/form/moreInput'
-import ComponentsList from '@/components/ComponentsList.vue'
+import ComponentsList from '@/views/ComponentsList.vue'
 const routes = [
     {
         path: '/',

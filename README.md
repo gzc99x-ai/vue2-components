@@ -13,4 +13,4 @@ vue `vue2`
 [运行程序(run the Program)](/md/runTheProgram.md){target="_blank"}
 
 ## form组件(form component)
-[点击查看演示(look at it)](/md/form.md){target="_blank"}
+<a href="/md/form.md" target="_blank" >点击查看演示(look at it)</a>

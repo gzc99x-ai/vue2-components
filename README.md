@@ -10,7 +10,7 @@ vue `vue2`
 
 ## 快速开始(Quick Start)
 
-[运行程序(run the Program)](/md/quickstart.md)
+[运行程序(run the Program)](/md/runTheProgram.md)
 
 ## form组件(form component)
-[点击查看(look at it)](/md/form.md)
+[点击查看演示(look at it)](/md/form.md)

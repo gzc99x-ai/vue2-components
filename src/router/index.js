@@ -1,6 +1,7 @@
 
 import VueRouter from 'vue-router'
 import moreInput from '@/views/form/moreInput'
+import moreSelect from '@/views/form/moreSelect'
 import ComponentsList from '@/views/ComponentsList.vue'
 const routes = [
     {
@@ -11,7 +12,12 @@ const routes = [
         path: '/form/moreInput',
         component: moreInput,
         children: []
-    }
+    },
+    {
+        path: '/form/moreSelect',
+        component: moreSelect,
+        children: []
+    },
 ]
 
 

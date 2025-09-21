@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="11px" height="6px" viewBox="0 0 11 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>icons-sys-arrowdown-nomal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="系统图标" transform="translate(-302.000000, -38.000000)" fill="#66757F">
+            <g id="Nomal" transform="translate(118.000000, 33.000000)">
+                <g id="icons-sys-arrowdown-nomal" transform="translate(184.000000, 5.000000)">
+                    <path d="M4.56290189,3 L7.80967174,6.72530922 C8.06338333,7.01641521 8.06420937,7.48744347 7.80754768,7.78193437 C7.552663,8.07438634 7.13574468,8.07017702 6.88665267,7.7843715 L3.19032826,3.54324814 C3.05988406,3.39357786 2.99628856,3.19634626 3.00016724,3 C2.99628856,2.80365374 3.05988406,2.60642214 3.19032826,2.45675186 L6.88665267,-1.7843715 C7.13574468,-2.07017702 7.552663,-2.07438634 7.80754768,-1.78193437 C8.06420937,-1.48744347 8.06338333,-1.01641521 7.80967174,-0.725309225 L4.56290189,3 L4.56290189,3 Z" id="下" transform="translate(5.500000, 3.000000) rotate(-90.000000) translate(-5.500000, -3.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -12,7 +12,7 @@
             {{ item.name }}
           </li>
         </ul>
-        <div class="add">添加 ></div>
+        <div class="add">去设置选项 ></div>
       </div>
     </div>
   </div>
